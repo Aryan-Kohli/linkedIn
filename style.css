@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**/
+body{
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    font-weight: 200;
+}
+h1{
+    font-size:3rem;
+
+}
+h2{
+    font-size:2rem;
+}
+h3{
+    font-size:1.5rem;
+}
+p{
+    font-size:1.25rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+:root{
+    --padding-inline:388px;
+}
+.container{
+ padding: 0px var(--padding-inline) 0px ;   
+}
+/*top-banner*/
+.top-banner-section
+{
+    padding: 20px var(--padding-inline) 0;
+    padding-right: 400px;
+    justify-content: space-between;
+    height: 60px;
+}
+.icons
+{
+   gap:25px; 
+   border-right: 1px solid  #8b8080;
+   padding-inline: 20px;
+}
+.icon{
+flex-direction: column;
+align-items: center;
+color: #0000008a;
+}
+.icon p{
+    font-weight :bolder;
+    font-size: 0.9rem;
+}
+.icon:hover{
+    color: #000000;
+    /* box-shadow: 0px 0px 1px black; */
+    transition: 0.2s ease-out;
+}
+.empty-btn
+{
+    background-color: #ffffff ;
+    color: rgba(0, 0, 0, 0.6);
+    border: 0px solid black;
+    font-size: 16px;
+    border-radius: 30px;
+    padding:12px 24px;
+}
+.empty-btn:hover
+{
+    background-color: rgba(194, 193, 193, 0.582);
+}
+.empty-btn-blue
+{
+    background-color: #ffffff ;
+    color: #2977c9;
+    border: 1px solid #2977c9;
+    font-size: 16px;
+    border-radius: 30px;
+    padding:12px 24px;
+}
+.empty-btn-blue:hover
+{
+    background-color: rgba(112, 157, 199, 0.1);
+}
+.buttons-right
+{
+    margin-left: 10px;
+    gap:10px;
+}
+/*hero-section*/
+.hero-container
+{
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    gap:30px;
+}
+
+.email
+{
+    margin-top:20px ;
+    padding: 15px 150px 15px 10px;
+    border: 1px solid black;
+    width: 380px;
+    font-size: 20px;
+}
+.hero-text
+{
+    flex-direction: column;
+    row-gap: 20px;
+}
+.hero-img img 
+{
+    width: 130%;
+}
+.main-head
+{
+    color: #8f5849;
+    line-height: 4rem;
+    font-size: 250px;
+    font-weight: lighter;
+}
+.password
+{
+    /* margin-top:20px ; */
+    padding: 15px 0px 15px 10px;
+    border: 1px solid black;
+    width: 380px;
+    font-size: 20px;
+
+}
+#pass1
+{
+    color: #2977c9;
+    font-size: 15px;
+    font-weight: 800;
+}
+.full-blue-btn
+{
+    font-weight: 900;
+    color: white;
+    background-color:#2979c9;
+    border: 1px solid #2979c9;
+    padding: 15px 160px;
+    width: 380px;
+    height: 50px;
+    font-size: large;
+    border-radius:25px ;
+}
+.full-blue-btn:hover{
+    transition: 0.2s ease-out;
+    box-shadow: 0px 0px 2px black;
+    background-color: #0a66c2;
+}
+.btn-google
+{
+    font-weight: 900;
+    color: black;
+    background-color: #ffffff ;
+    border: 1px solid #000000;
+    padding: 15px 100px;
+    width: 380px;
+    height: 50px;
+    font-size: large;
+    border-radius:25px;
+    
+}
+#sign-in-google
+{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.btn-google:hover{
+    transition: 0.2s ease-out;
+    outline: 1px solid  #000000;
+    background-color: rgb(235, 228, 228);
+}
+.or-div
+{
+    gap:5px;
+    align-items: center;
+}
+.lines1
+{
+    background-color: #000000;
+    width: 175px;
+    height: 0.5px;
+}
+.lines2
+{
+    background-color: #000000;
+    width: 175px;
+    height: 0.5px;
+}
+/*big-sec1*/
+#btnn1
+{
+    
+    background-color: #F3F2F0; ;
+    font-size: 20px;
+    font-weight: 700;
+}
+.main-btn
+{
+    color: #000000;
+    border: 1.9px solid #000000;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    border-radius: 40px;
+    height:60px;
+    padding:12px 22px;
+}
+.main-btn:hover
+{
+    background-color: rgba(112, 157, 199, 0.1);
+}
+.big-sec1-container
+{
+    padding: 125px var(--padding-inline) 125px;
+    justify-content: space-between;
+    background-color: #F3F2F0;
+    /* gap:20px; */
+}
+.big-sec1-left
+{
+    font-weight:100;
+    /* max-width:500px; */
+    margin-right:10px;
+}
+.big-sec1-right{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 70px;
+    column-gap: 2px;
+    font-weight: bold;
+}
+.sec1-right-btns{
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.sec1-right-text
+{
+    flex-direction: column;
+    align-items: start;
+}
+#sec1-head
+{
+    font-weight: 580;
+    width: 430px;
+    /* font-family: 'sans-serif; */
+}
+#sec2
+{
+    background-color: #ffffff;
+}
+#show-more
+{
+    margin-top: 30px;
+    width: auto;
+    padding: 10px 20px 10px 20px;
+}
+#show-more:hover{
+    background-color: #8b8080;
+}
