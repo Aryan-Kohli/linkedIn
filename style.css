@@ -181,6 +181,17 @@ color: #0000008a;
     flex-direction: row;
     justify-content: space-around;
 }
+#join-now
+{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 40px;
+    font-weight: 700;
+}
+#join2
+{
+    font-weight: 800;
+}
 .btn-google:hover{
     transition: 0.2s ease-out;
     outline: 1px solid  #000000;
